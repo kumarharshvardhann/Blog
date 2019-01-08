@@ -1,0 +1,100 @@
+html	{
+	height: 100%;
+	box-sizing: border-box;
+}
+
+body	{
+	min-height: 100%;
+	position: relative;
+	margin: 0;
+	overflow: scroll;
+}
+
+
+.navbar	{
+	/* background-image: linear-gradient(120deg,#4CB8C4,#09e5c0); */
+	overflow: hidden;
+	height: 50vh;
+	border-radius: 0 0 8% 8%;
+	box-shadow: 1px 1px 100px #000000 inset;
+	-webkit-animation: color-change-5x 6s linear infinite alternate both;
+	        animation: color-change-5x 6s linear infinite alternate both;
+}
+
+@-webkit-keyframes navbar {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}
+@keyframes navbar {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}
+
+
+.navbar ul	{
+	margin-top: 42vh;
+	list-style-type: none;
+	float: right;
+}
+
+.navbar ul li	{
+	float: left;
+}
+
+.navbar ul li a	{
+	display: block;
+	text-align: center;
+
+	font-family: 'Noto Serif', serif;
+	width: 8vw;
+	color: white;
+	box-sizing: border-box;
+	font-size: 3vh;
+	text-decoration: none;
+
+	/*padding-left: 1vw;
+	padding-right: 1vw;
+	margin-top: 1vh;*/
+}
+
+.navbar ul li a:hover	{
+	height: 10vh;
+	background-color: #2B2D42;
+	color: white;
+}
+
+.navbar ul li a:active	{
+	height: 10vh;
+	background-color: #2B2D42;
+	color: white;
+}
+
+h3	{
+	text-align: center;
+}
